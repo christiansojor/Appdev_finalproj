@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "423728709686",
+    "project_id": "appdev-4f872",
+    "storage_bucket": "appdev-4f872.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423728709686:android:1e4315d38c9388e98f9897",
+        "android_client_info": {
+          "package_name": "com.kpop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "423728709686-d4i51eu01ovr03rq10nusbhhhhmpobpk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kpop",
+            "certificate_hash": "fe598f50e519123571ea440c7fe735007a485a3f"
+          }
+        },
+        {
+          "client_id": "423728709686-o3hr74vftlekkgqmmsi1d0uam5nl6fp7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeFee8FbmuQedh2jOM9ud2TrNXld7zNto"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "423728709686-o3hr74vftlekkgqmmsi1d0uam5nl6fp7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
