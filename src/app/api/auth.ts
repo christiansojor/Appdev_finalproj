@@ -9,19 +9,22 @@ const options = {
 export async function checkBackendConnection() {
   const url = BASE_URL + '/test-jwt';
   console.log('[API] Checking backend at', url);
-  try {
-    const response = await fetch(url);
-    const data = await response.json().catch(() => ({}));
+
+  const response = await fetch(url);
+    const data = await response.json().catch((resp) => ({ 
+    }));
     if (response.ok) {
       console.log('[API] Successfully connected to backend at', BASE_URL);
       return true;
     }
     console.log('[API] Backend responded but not OK:', response.status, data);
     return false;
-  } catch (error) {
-    console.log('[API] Failed to connect to backend:', error?.message || error, '| URL:', url);
-    return false;
-  }
+  // try {
+    
+  // } catch (error) {
+  //   console.log('[API] Failed to connect to backend:', error?.message || error, '| URL:', url);
+  //   return false;
+  // }
 }
 
 export async function authLogin({ email, password }) {
